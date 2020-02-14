@@ -158,8 +158,13 @@ header nav a img {
 
 .theame-nav ul li a {
     color: #fff;
+    transition: linear .2s;
 }
 
+.theame-nav ul li a:hover {
+    color: #B9090F;
+    transition: linear .2s;
+}
 
 .theme-btn-group a {
     color: #fff;
@@ -358,10 +363,32 @@ header nav a img {
 .movies-img {
     background-image: url();
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110%;
     background-position: center center;
     height: 230px;
     margin: 20px 0;
+    transition: linear .5s;
+    position: relative;
+}
+
+.movies-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: linear .5s;
+}
+
+.movies-img:hover .movies-img-overlay {
+    bottom: 0;
+    background: #b9090f63;
+    transition: linear .5s;
+}
+
+.movies-img:hover {
+    background-size: 120%;
+    transition: linear .5s;
 }
 
 /* *************************************** */
