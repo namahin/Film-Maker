@@ -477,6 +477,7 @@ footer {
 }
 
 .footer-btn ul li a:hover {
+    color: #B9090F;
     opacity: 1;
     transition: linear .2s;
 }
