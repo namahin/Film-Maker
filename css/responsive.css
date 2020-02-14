@@ -1,0 +1,187 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .mb-xs-0 {
+        margin-bottom: 0 !important;
+    }
+
+    .title-sec h2 {
+        font-size: 45px;
+    }
+
+    .title-sec-sub h2 {
+        font-size: 32px;
+    }
+
+    .title-sec-sub {
+        margin-bottom: 50px;
+    }
+
+    .contact-item {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .contact-item img {
+        width: 36px;
+    }
+
+    .contact-item h3 {
+        font-size: 22px !important;
+        ;
+    }
+
+    .contact-item p {
+        font-size: 16px !important;
+        ;
+    }
+
+    .footer-btn ul li {
+        margin-bottom: 15px;
+    }
+
+    .banner-content p br {
+        display: none;
+    }
+
+    .contact .row .col-full {
+        padding: 0 15px !important;
+        ;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .banner-content {
+        padding-top: 230px;
+        padding-bottom: 200px;
+    }
+
+    .title-sec {
+        padding-top: 100px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+
+    .feature-card {
+        margin-bottom: 200px;
+    }
+
+    .title-sec-sub {
+        padding-top: 30px;
+        text-align: left !important;
+        ;
+    }
+
+    .title-sec-sub p {
+        text-align: left !important;
+    }
+
+    .mockup-sec {
+        padding-bottom: 30px;
+    }
+
+    .slider {
+        padding-top: 60px;
+        padding-bottom: 150px;
+    }
+
+    .contact .row .col-full {
+        padding: 0;
+    }
+
+    .contact-item {
+        padding-right: 0;
+    }
+
+    .contact-item h3 {
+        font-size: 18px;
+    }
+
+    .contact-item p {
+        font-size: 11px;
+    }
+
+    .footer-btn ul li a {
+        opacity: 1;
+    }
+
+    footer {
+        padding: 80px 0;
+    }
+
+    .footer-logo {
+        padding-bottom: 50px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    header nav button {
+        color: #fff;
+        background: #B9090F !important;
+        border-radius: 0 !important;
+        padding: 8px 10px !important;
+        outline: none !important;
+    }
+
+    header nav button i {
+        font-size: 22px;
+    }
+
+    .theame-nav {
+        background: #B9090F;
+    }
+
+    .theme-btn-group a:hover {
+        color: #fff;
+    }
+
+    .movies-sec {
+        padding-bottom: 0;
+    }
+
+    .title-sec-sub {
+        text-align: center;
+    }
+
+    .title-sec-sub h2 {
+        line-height: 40px;
+    }
+
+    .title-sec-sub h2 br {
+        display: none;
+    }
+
+    .title-sec-sub p {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .movies-img {
+        margin: 15px 0;
+        height: 150px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .theame-nav ul li {
+        margin-left: 20px;
+    }
+
+    .feature-sec {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .theme-col-12 {
+        max-width: 100% !important;
+        margin-left: 0;
+        flex: auto;
+    }
+}
