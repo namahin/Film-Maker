@@ -135,8 +135,26 @@
         background: #B9090F;
     }
 
-    .theme-btn-group a:hover {
+    .theme-btn-group a {
+        background: #B9090F;
         color: #fff;
+        transition: linear .2s;
+        border: 1px solid #fff;
+        padding: 8px 25px;
+        border-radius: 6px;
+        display: inline-block;
+        margin-left: 10px !important;
+    }
+
+    .theme-btn-group a:hover {
+        background: #fff;
+        color: #B9090F;
+    }
+
+    .theme-btn-group {
+        text-align: center;
+        display: block;
+        padding-bottom: 20px;
     }
 
     .movies-sec {
@@ -166,13 +184,15 @@
         margin: 15px 0;
         height: 150px;
     }
-    .theame-nav ul li{
+
+    .theame-nav ul li {
         margin-left: 0 !important;
         padding-left: 25px;
         padding-right: 25px;
         transition: linear .2s;
     }
-    .theame-nav ul li:hover{
+
+    .theame-nav ul li:hover {
         background: #fff;
         transition: linear .2s;
     }
