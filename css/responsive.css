@@ -166,6 +166,16 @@
         margin: 15px 0;
         height: 150px;
     }
+    .theame-nav ul li{
+        margin-left: 0 !important;
+        padding-left: 25px;
+        padding-right: 25px;
+        transition: linear .2s;
+    }
+    .theame-nav ul li:hover{
+        background: #fff;
+        transition: linear .2s;
+    }
 }
 
 /* // Large devices (desktops, less than 1200px) */

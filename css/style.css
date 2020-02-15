@@ -168,9 +168,14 @@ header nav a img {
 
 .theme-btn-group a {
     color: #fff;
-    margin-left: 25px !important;
+    margin-left: 25px !important;   
+    transition: linear .2s;
+    
 }
-
+.theme-btn-group a:hover{
+    color: #B9090F; 
+    transition: linear .2s;
+}
 /* -- navigation bar end here-- */
 .banner {
     background-image: url(../images/benner.jpg);
